@@ -5,7 +5,7 @@ Currently being hosted on Replit.
 ## How to use?
 - Create a repl on Replit, put those files in.
 - Create an environment variable, name it `TOKEN`, put your Discord bot token in the value box. Create another environment variable, name it `ADDRESS` and put your server's IP address in.
-- Edit your bot's prefix if you want in `main.py`.
+- Edit your bot's prefix and messages to your liking if you want in `main.py`.
 - Start repl.
 
 ## 24/7 Hosting
