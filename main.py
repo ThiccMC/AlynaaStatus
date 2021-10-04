@@ -28,6 +28,13 @@ async def on_message(message):
         except:
             await message.channel.send('Oops, **Thicc SMP** **is currently offline**!')
 
+    if message.content.startswith('.t stasus'):
+        try:
+            status=server.status()
+            await message.channel.send('Sussy baka, **Thicc SMP** is **online**!')
+        except:
+            await message.channel.send('Oops so sus, **Thicc SMP** **is currently offline**!')
+
     if message.content.startswith('.t statú'):
         try:
             status=server.status()
