@@ -17,4 +17,9 @@ Go see them in the code :dream:. They start with the `.t` prefixes.
 ## 24/7 Hosting
 - Login to your UptimeRobot account, create a monitor (HTTP(s) type) and put your repl's URL in.
 
+## Images
+![Screenshot from 2021-11-02 13-16-40](https://user-images.githubusercontent.com/73286927/139795708-28ae220e-85f7-4b56-b640-8b852c47e7c1.png)
+
+![Screenshot from 2021-11-02 13-16-56](https://user-images.githubusercontent.com/73286927/139795715-3dd193a7-71dd-4978-8233-aa3c9af18cf5.png)
+
 Prefix: `.t`
