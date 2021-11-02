@@ -1,3 +1,4 @@
+# replit users (like me) are recommended to install the package using the "Packages" menu of the replit panel.
 import discord
 
 class EmbedBuilder:
