@@ -2,6 +2,12 @@
 A bot which provides online/offline and player status for Thicc SMP.
 Currently being hosted on Replit.
 
+## Depends
+`discord.py`, `mc-status`, `decouple` and `maxembeds` (`maxembeds.py`)
+
+## Commands
+Go see them in the code :dream:. They start with the `.t` prefixes.
+
 ## How to use?
 - Create a repl on Replit, put those files in.
 - Create an environment variable, name it `TOKEN`, put your Discord bot token in the value box. Create another environment variable, name it `ADDRESS` and put your server's IP address in.
