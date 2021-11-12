@@ -33,7 +33,7 @@ async def on_message(message):
                 title="Oh hey, Thicc SMP is online :D",
                 description="Powered by AlynaaStatus",
                 color=discord.Color.from_rgb(0, 255, 255),
-                fields=[["Java IP", "thiccsmp.qtpc.tech", True], ["Bedrock IP", "bedrock.qtpc.tech", True]],
+                fields=[["IP (Java + Bedrock)", "thiccsmp.qtpc.tech", True]],
                 thumbnail='https://cdn.discordapp.com/emojis/878887184915136542.gif'
             ).build()
             await message.channel.send(embed=embed)
@@ -55,7 +55,7 @@ async def on_message(message):
                 title="Sussy baka, Thicc SMP is online :D",
                 description="Powered by AlynaaStatus",
                 color=discord.Color.from_rgb(0, 255, 255),
-                fields=[["Java IP", "thiccsmp.qtpc.tech", True], ["Bedrock IP", "bedrock.qtpc.tech", True]],
+                fields=[["IP (Java + Bedrock)", "thiccsmp.qtpc.tech", True]],
                 thumbnail='https://cdn.discordapp.com/emojis/878887184915136542.gif'
             ).build()
             await message.channel.send(embed=embed)
@@ -78,7 +78,7 @@ async def on_message(message):
                 title="Telex user huh? Nevermind, Thicc SMP is online :D",
                 description="Powered by AlynaaStatus",
                 color=discord.Color.from_rgb(0, 255, 255),
-                fields=[["Java IP", "thiccsmp.qtpc.tech", True], ["Bedrock IP", "bedrock.qtpc.tech", True]],
+                fields=[["IP (Java + Bedrock)", "thiccsmp.qtpc.tech", True]],
                 thumbnail='https://cdn.discordapp.com/emojis/878887184915136542.gif'
             ).build()
             await message.channel.send(embed=embed)
@@ -100,7 +100,7 @@ async def on_message(message):
                 title="Sussy baka, Thicc SMP is online :D",
                 description="Powered by AlynaaStatus",
                 color=discord.Color.from_rgb(0, 255, 255),
-                fields=[["Java IP", "thiccsmp.qtpc.tech", True], ["Bedrock IP", "bedrock.qtpc.tech", True]],
+                fields=[["IP (Java + Bedrock)", "thiccsmp.qtpc.tech", True]],
                 thumbnail='https://cdn.discordapp.com/emojis/878887184915136542.gif'
             ).build()
             await message.channel.send(embed=embed)
