@@ -10,7 +10,7 @@ Go see them in the code :dream:. They start with the `.t` prefixes.
 
 ## How to use?
 - Create a repl on Replit, put those files in.
-- Create an environment variable, name it `TOKEN`, put your Discord bot token in the value box. Create another environment variable, name it `ADDRESS` and put your server's IP address in.
+- Create an environment variable, name it `TOKEN`, put your Discord bot token in the value box. Create another environment variable, name it `ADDRESS` and put your server's IP address in. (this script has a 2nd server monitorer for Thicc SMP SkyBlock, the address is stored in another environment variable called `SKYBLOCK`. If you want to use this script just to monitor 1 server, comment/delete the code for the SkyBlock server.)
 - Edit your bot's prefix and messages to your liking if you want in `main.py`.
 - Start repl.
 
