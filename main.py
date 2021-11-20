@@ -13,6 +13,7 @@ keep_alive.keep_alive()
 
 # Start server, with commands and stuff.
 server = MinecraftServer.lookup(config('ADDRESS'))
+skyblock = MinecraftServer.lookup(config('SKYBLOCKADDRESS'))
 client = discord.Client()
 
 
@@ -121,12 +122,12 @@ async def on_message(message):
     if message.content.startswith('.t players'):
         try:
             player = server.status()
-            #            playerpe = serverpe.status()
+            playerskyblock = skyblock.status()
             embed = EmbedBuilder(
                 title="Thicc SMP Playercount",
                 description="Powered by AlynaaStatus",
                 color=discord.Color.from_rgb(0, 255, 255),
-                fields=[["All players", "{0}/50".format(player.players.online), True]],
+                fields=[["SMP", "{0}/50".format(player.players.online), True], ["SkyBlock", "{0}/50".format(playerskyblock.players.online), True]],
                 thumbnail='https://cdn.discordapp.com/emojis/878887184915136542.gif'
             ).build()
             await message.channel.send(embed=embed)
@@ -145,12 +146,12 @@ async def on_message(message):
     if message.content.startswith('.t playẻ'):
         try:
             player = server.status()
-            #            playerpe = serverpe.status()
+            playerskyblock = skyblock.status()
             embed = EmbedBuilder(
                 title="Telex user? Anyways here is the Thicc SMP Playercount",
                 description="Powered by AlynaaStatus",
                 color=discord.Color.from_rgb(0, 255, 255),
-                fields=[["All players", "{0}/50".format(player.players.online), True]],
+                fields=[["SMP", "{0}/50".format(player.players.online), True], ["SkyBlock", "{0}/50".format(playerskyblock.players.online), True]],
                 thumbnail='https://cdn.discordapp.com/emojis/878887184915136542.gif'
             ).build()
             await message.channel.send(embed=embed)
@@ -172,12 +173,12 @@ async def on_message(message):
     if message.content.startswith('.t ping'):
         try:
             latency = server.ping()
-            #            playerpe = serverpe.status()
+            latencyskyblock = skyblock.status()
             embed = EmbedBuilder(
                 title="Thicc SMP Latency from Replit",
                 description="Powered by AlynaaStatus, hosted on Replit",
                 color=discord.Color.from_rgb(0, 255, 255),
-                fields=[["Latency (ms)", "{0} from Replit.".format(latency), True]],
+                fields=[["SMP Latency (ms)", "{0} from Replit.".format(latency), True], ["SkyBlock Latency (ms)", "{0} from Replit.".format(latencyskyblock), True]],
                 thumbnail='https://cdn.discordapp.com/emojis/878887184915136542.gif'
             ).build()
             await message.channel.send(embed=embed)
@@ -196,12 +197,12 @@ async def on_message(message):
     if message.content.startswith('.t latency'):
         try:
             latency = server.ping()
-            #            playerpe = serverpe.status()
+            latencyskyblock = skyblock.status()
             embed = EmbedBuilder(
                 title="Thicc SMP Latency from Replit",
                 description="Powered by AlynaaStatus, hosted on Replit",
                 color=discord.Color.from_rgb(0, 255, 255),
-                fields=[["Latency (ms)", "{0} from Replit.".format(latency), True]],
+                fields=[["SMP Latency (ms)", "{0} from Replit.".format(latency), True], ["SkyBlock Latency (ms)", "{0} from Replit.".format(latencyskyblock), True]],
                 thumbnail='https://cdn.discordapp.com/emojis/878887184915136542.gif'
             ).build()
             await message.channel.send(embed=embed)
