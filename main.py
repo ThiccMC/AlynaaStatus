@@ -127,7 +127,7 @@ async def on_message(message):
                 title="Thicc SMP Playercount",
                 description="Powered by AlynaaStatus",
                 color=discord.Color.from_rgb(0, 255, 255),
-                fields=[["SMP", "{0}/50".format(player.players.online), True], ["SkyBlock", "{0}/50".format(playerskyblock.players.online), True]],
+                fields=[["SMP", "{0}/69".format(player.players.online), True], ["SkyBlock", "{0}/50".format(playerskyblock.players.online), True]],
                 thumbnail='https://cdn.discordapp.com/emojis/878887184915136542.gif'
             ).build()
             await message.channel.send(embed=embed)
@@ -151,7 +151,7 @@ async def on_message(message):
                 title="Telex user? Anyways here is the Thicc SMP Playercount",
                 description="Powered by AlynaaStatus",
                 color=discord.Color.from_rgb(0, 255, 255),
-                fields=[["SMP", "{0}/50".format(player.players.online), True], ["SkyBlock", "{0}/50".format(playerskyblock.players.online), True]],
+                fields=[["SMP", "{0}/69".format(player.players.online), True], ["SkyBlock", "{0}/50".format(playerskyblock.players.online), True]],
                 thumbnail='https://cdn.discordapp.com/emojis/878887184915136542.gif'
             ).build()
             await message.channel.send(embed=embed)
