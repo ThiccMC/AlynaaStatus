@@ -1,5 +1,6 @@
 # AlynaaStatus
-A Discord bot which provides online/offline and player status for Thicc SMP.
+A Discord bot which provides online/offline and player status for ThiccMC.
+
 Currently being hosted on Replit.
 
 ## Depends
